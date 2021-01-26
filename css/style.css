@@ -20,6 +20,8 @@
   border: 1px solid lightgray;
   border-radius: 5px;
   -webkit-border-radius: 5px;
+  padding: 0;
+  margin: 0;
 }
 
 .quote{
@@ -31,57 +33,57 @@
   font-size: 20px;
 }
 
-.testimonial2 {
+.rayhub {
   font-family: "Montserrat", sans-serif;
   color: #8d97ad;
   font-weight: 300;
 }
 
-.testimonial2 h1,
-.testimonial2 h2,
-.testimonial2 h3,
-.testimonial2 h4,
-.testimonial2 h5,
-.testimonial2 h6 {
+.rayhub h1,
+.rayhub h2,
+.rayhub h3,
+.rayhub h4,
+.rayhub h5,
+.rayhub h6 {
   color: #3e4555;
 }
 
-.testimonial2 h5 {
+.rayhub h5 {
     line-height: 22px;
     font-size: 18px;
 		font-weight: 400;
 }
 
-.testimonial2 .font-weight-medium {
+.rayhub .font-weight-medium {
   font-weight: 500;
 }
 
-.testimonial2 .bg-light {
+.rayhub .bg-light {
   background-color: #f4f8fa !important;
 }
 
-.testimonial2 .subtitle {
+.rayhub .subtitle {
   color: #8d97ad;
   line-height: 24px;
 }
 
-.testimonial2 .testi2 .image-thumb {
+.rayhub .testi2 .image-thumb {
   background: url(../images/greadint-bg.png) no-repeat top center;
   text-align: center;
   padding: 10% 0;
 }
 
-.testimonial2 .testi2 .image-thumb img {
+.rayhub .testi2 .image-thumb img {
   width: 400px;
 }
 
-.testimonial2 .testi2 .owl-dots {
+.rayhub .testi2 .owl-dots {
   display: inline-block;
   position: relative;
   top: -100px;
 }
 
-.testimonial2 .testi2 .owl-dots .owl-dot {
+.rayhub .testi2 .owl-dots .owl-dot {
   border-radius: 100%;
   width: 70px;
   height: 70px;
@@ -91,12 +93,12 @@
   cursor: pointer;
 }
 
-.testimonial2 .testi2 .owl-dots .owl-dot span {
+.rayhub .testi2 .owl-dots .owl-dot span {
   display: none;
 }
 
-.testimonial2 .testi2 .owl-dots .owl-dot.active,
-.testimonial2 .testi2 .owl-dots .owl-dot:hover {
+.rayhub .testi2 .owl-dots .owl-dot.active,
+.rayhub .testi2 .owl-dots .owl-dot:hover {
   opacity: 1;
 }
 @media (max-width: 575.98px) { 
@@ -104,21 +106,21 @@
         width: 100%;
     }
 }
-/* 
+
 @media (max-width: 767px) {
-  .testimonial2 .testi2 .owl-dots {
+  .rayhub .testi2 .owl-dots {
     top: 0px;
   }
 }
 
-.testimonial2 .btn-md {
+.rayhub .btn-md {
     padding: 18px 0px;
     width: 60px;
     height: 60px;
     font-size: 20px;
 }
 
-.testimonial2 .btn-danger {
+.rayhub .btn-danger {
     background: #ff4d7e !important;
     border: 1px solid #ff4d7e !important;
-} */
+}
