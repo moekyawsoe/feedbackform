@@ -30,7 +30,12 @@
 }
 
 #showReview{
+  font-family: tharlonregular;
   font-size: 20px;
+}
+
+#feedback{
+  font-family: tharlonregular;
 }
 
 .rayhub {
