@@ -1,4 +1,5 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800);
+@import url(//fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap);
 .heading{
     width: 30px;
     height: 30px;
@@ -11,17 +12,30 @@
     display: block;
     width: 70px;
     height: 70px;
-    background: url('../images/index.jpeg') no-repeat center center / contain;
+    background: url('../images/icon.png') no-repeat center center / contain;
 }
 
 .widget {
   width: 100%;
   height: 100%;
-  border: 1px solid lightgray;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  padding: 0;
-  margin: 0;
+  border: 10px solid lightgray;
+  border-radius: 10px;
+  padding: 40px 10px 40px 30px;
+  /* margin: 80px 80px 80px 80px; */
+  background-color: #cacaca24;
+  /* background-color: rgb(255,250,250); */
+  /* background-color: rgb(240,255,240); */
+  /* background-color: rgb(245,255,250); */
+  /* background-color: aliceblue; */
+}
+
+#imgoverall{
+  width: 150px;
+  height: 150px;
+}
+
+#overallsc{
+  padding: 2px;
 }
 
 .quote{
@@ -30,12 +44,14 @@
 }
 
 #showReview{
-  font-family: tharlonregular;
-  font-size: 20px;
+  padding-left: 20px;
+  line-height: 40px;
+  font-family: 'Padauk', sans-serif;
+  font-size: 24px;
 }
 
 #feedback{
-  font-family: tharlonregular;
+  font-family: 'Padauk', sans-serif;
 }
 
 .rayhub {
@@ -73,12 +89,14 @@
 
 .rayhub .testi2 .image-thumb {
   background: url(../images/greadint-bg.png) no-repeat top center;
+  background-size: 400px 400px;
   text-align: center;
-  padding: 10% 0;
+  padding: 7% 0;
 }
 
 .rayhub .testi2 .image-thumb img {
-  width: 400px;
+  width: 250px;
+  height: 250px;
 }
 
 .rayhub .testi2 .owl-dots {
