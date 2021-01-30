@@ -18,30 +18,30 @@
   background-color: #cacaca24;
 }
 .logo {
-  padding-left: 20px;
+  padding-left: 40px;
   padding-top: 20px;
 }
 
 #showStudentName{
   font-size: 30px;
-  padding-left: 20px;
+  padding-left: 40px;
 }
 .subtitle{
-  padding-left: 20px;
+  padding-left: 40px;
   padding-bottom: 20px;
 }
 
 .quote{
   font-family: 'Coda Caption', sans-serif;
   font-size: 40px;
-  padding-left: 20px;
+  padding-left: 40px;
   margin: 0;
 }
 
 #showReview{
   font-family: 'Padauk', sans-serif;
   font-size: 19px;
-  padding-left: 30px;
+  padding-left: 40px;
   position: relative;
   line-height: 1.6;
 }
