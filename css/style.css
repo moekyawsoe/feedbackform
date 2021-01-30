@@ -42,6 +42,8 @@
   font-family: 'Padauk', sans-serif;
   font-size: 19px;
   padding-left: 30px;
+  position: relative;
+  line-height: 1.6;
 }
 
 .rayhub .bg-light {
