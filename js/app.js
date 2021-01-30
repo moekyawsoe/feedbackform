@@ -1,7 +1,7 @@
 $(function() {
 
     $("#btnSave").click(function() {
-      html2canvas($("#widget"), {
+      html2canvas(document.querySelector("#widget"), {
         onrendered: function(canvas) {
           Canvas2Image.saveAsPNG(canvas);
         }
