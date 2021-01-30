@@ -9,119 +9,53 @@
     left:20px;
     background: url('https://api.iconify.design/bi:arrow-left-circle-fill.svg') no-repeat center center / contain;
 }
-.imgRay{
-    display: block;
-    width: 70px;
-    height: 70px;
-    background: url('../images/icon.png') no-repeat center center / contain;
-}
 
 .widget {
   width: 100%;
   height: 100%;
   border: 10px solid lightgray;
   border-radius: 10px;
-  padding: 10px 10px 20px 30px;
   background-color: #cacaca24;
 }
+.logo {
+  padding-left: 20px;
+  padding-top: 20px;
+}
 
-#imgoverall{
-  width: 150px;
-  height: 150px;
+#showStudentName{
+  font-size: 30px;
+  padding-left: 20px;
+}
+.subtitle{
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 
 .quote{
   font-family: 'Coda Caption', sans-serif;
   font-size: 40px;
+  padding-left: 20px;
+  margin: 0;
 }
 
 #showReview{
-  padding-left: 20px;
   font-family: 'Padauk', sans-serif;
-  font-size: 20px;
-}
-
-#feedback{
-  font-family: 'Padauk', sans-serif;
-}
-
-.rayhub {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-}
-
-.rayhub h1,
-.rayhub h2,
-.rayhub h3,
-.rayhub h4,
-.rayhub h5,
-.rayhub h6 {
-  color: #3e4555;
-}
-
-.rayhub h5 {
-    line-height: 22px;
-    font-size: 18px;
-		font-weight: 400;
-}
-
-.rayhub .font-weight-medium {
-  font-weight: 500;
+  font-size: 19px;
+  padding-left: 30px;
 }
 
 .rayhub .bg-light {
   background-color: #f4f8fa !important;
 }
 
-.rayhub .subtitle {
-
-  line-height: 24px;
-}
-
-.rayhub .testi2 .image-thumb {
+.image-thumb {
   background: url(../images/greadint-bg.png) no-repeat top center;
   background-size: 400px 400px;
   text-align: center;
   padding: 7% 0;
 }
 
-.rayhub .testi2 .image-thumb img {
+.image-thumb img {
   width: 250px;
   height: 250px;
-}
-
-.rayhub .testi2 .owl-dots {
-  display: inline-block;
-  position: relative;
-  top: -100px;
-}
-
-.rayhub .testi2 .owl-dots .owl-dot {
-  border-radius: 100%;
-  width: 70px;
-  height: 70px;
-  background-size: cover;
-  margin-right: 10px;
-  opacity: 0.4;
-  cursor: pointer;
-}
-
-.rayhub .testi2 .owl-dots .owl-dot span {
-  display: none;
-}
-
-.rayhub .testi2 .owl-dots .owl-dot.active,
-.rayhub .testi2 .owl-dots .owl-dot:hover {
-  opacity: 1;
-}
-@media (max-width: 575.98px) { 
-    #widget{
-        width: 100%;
-    }
-}
-
-@media (max-width: 767px) {
-  .rayhub .testi2 .owl-dots {
-    top: 0px;
-  }
 }
